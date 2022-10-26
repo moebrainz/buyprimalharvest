@@ -1,0 +1,906 @@
+@charset "utf-8";
+/* CSS Document */
+/*----------------
+RESET CSS
+-----------------*/
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;0,700;1,500;1,700&family=Work+Sans:ital,wght@0,400;0,500;0,700;1,400&display=swap");
+
+body {
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  padding: 0;
+  background: #fff;
+  color: #212529;
+  text-align: center;
+  font-family: "Work Sans", sans-serif;
+  font-weight: 400;
+}
+
+div,
+ul,
+h1,
+h2,
+h3,
+h4,
+h5,
+li,
+p,
+img,
+form,
+input,
+textarea {
+  margin: 0;
+  padding: 0;
+}
+
+header,
+section,
+footer,
+aside,
+nav,
+main,
+article,
+figure {
+  display: block;
+}
+
+table,
+tr,
+td {
+  border: 0;
+}
+
+a {
+  outline: none;
+  color: #000;
+  text-decoration: none;
+}
+
+a:hover {
+  outline: none;
+  color: #000;
+  text-decoration: none;
+}
+
+img {
+  border: none;
+}
+
+li {
+  list-style: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.img-full {
+  max-width: 100%;
+}
+
+.clearall {
+  clear: both;
+  font-size: 1px;
+  line-height: 1px;
+  height: 1px;
+}
+
+/*-----------------------
+MAIN CSS START
+------------------------*/
+.container {
+  width: 100%;
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 0 15px;
+  position: relative;
+}
+
+/*------------------------------
+HEADER CSS
+------------------------------*/
+header {
+  float: left;
+  width: 100%;
+  background: #f4e3cf;
+  padding: 15px 0;
+}
+
+.logo {
+  float: left;
+}
+
+.adv-p {
+  float: left;
+  width: 100%;
+  font-size: 16px;
+  line-height: 18px;
+  color: #000;
+  text-align: left;
+  margin-top: 3px;
+}
+
+/*-------------------------
+CSS FOR SECTION 1
+--------------------------*/
+.section-1 {
+  float: left;
+  width: 100%;
+}
+
+.sec1-lft {
+  float: left;
+  width: 66.66%;
+  padding: 40px 0 60px;
+  background: #fff;
+}
+
+.heading {
+  font-size: 44px;
+  line-height: 56px;
+  text-align: left;
+  font-weight: 700;
+  font-family: "Montserrat", sans-serif;
+}
+
+.h-para {
+  text-align: left;
+  font-size: 20px;
+  line-height: 28px;
+  font-weight: 500;
+  margin-top: 15px;
+}
+
+.s1-hr {
+  border: none;
+  background: #fcbf77;
+  height: 3px;
+  margin: 25px 0 20px;
+}
+
+.author {
+  margin: 15px 0 30px;
+  font-size: 18px;
+  text-align: left;
+  position: relative;
+  padding: 5px 0 5px 75px;
+}
+
+.author span {
+  font-weight: bold;
+}
+
+.author img {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.sec-img {
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.mar-30 {
+  margin-top: 35px;
+}
+
+.caps-txt {
+  font-size: 17px;
+  font-weight: 500;
+  padding: 15px 5px;
+  border-bottom: 1px solid #ccc;
+}
+
+.common-para {
+  text-align: left;
+  margin-top: 30px;
+  font-size: 20px;
+  line-height: 28px;
+}
+
+a.link-txt {
+  color: #09f;
+  text-decoration: underline;
+}
+
+.subheading {
+  font-size: 22px;
+  font-weight: bold;
+  font-family: "Montserrat", sans-serif;
+  margin-top: 30px;
+  text-align: left;
+}
+
+a.common-btn {
+  display: block;
+  margin: 30px auto 0;
+  height: 60px;
+  width: 332px;
+  outline: 0;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 60px;
+  color: #fff;
+  text-align: center;
+  border: 0;
+  cursor: pointer;
+  background: #fd001b;
+}
+
+.common-heading {
+  margin: 45px 0 0 0;
+  border-bottom: 3px solid #fcbf77;
+  border-top: 4px solid #fcbf77;
+  font-size: 34px;
+  line-height: 42px;
+  font-weight: bold;
+  padding: 17px 0;
+}
+
+.testi-box {
+  float: left;
+  width: 100%;
+  margin-top: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.testi-inner {
+  float: left;
+  width: 48%;
+  border: 1px solid #fcbf77;
+  padding: 15px;
+  text-align: left;
+}
+
+.testi-inner.fr {
+  float: right;
+}
+
+.timgbx {
+  height: 68px;
+  position: relative;
+  padding: 15px 0 0 78px;
+}
+
+.timg {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.t-name {
+  color: #000;
+  font-size: 19px;
+  font-weight: 500;
+}
+
+.tvrf {
+  font-size: 15px;
+  line-height: 16px;
+  color: #00ab0c;
+  text-align: left;
+  margin: 5px 0 0 0;
+}
+
+.tvrf img {
+  float: left;
+  margin: 2px 5px -6px 0;
+}
+
+.tstar {
+  padding: 13px 0 0 0;
+  display: block;
+}
+
+.test-para {
+  font-size: 19px;
+  line-height: 27px;
+  margin-top: 10px;
+}
+
+.t-row {
+  float: left;
+  width: 100%;
+  margin-top: 40px;
+  text-align: left;
+}
+
+ul.benefits-list {
+  float: left;
+  width: calc(100% - 200px);
+  margin-top: 10px;
+  padding-left: 20px;
+}
+
+ul.benefits-list li {
+  float: left;
+  width: 100%;
+  text-align: left;
+  color: #000;
+  font-size: 20px;
+  line-height: 28px;
+  font-weight: 500;
+  padding-left: 30px;
+  background: url(https://cdn.aws-files.com/56edc5b0-8cce-4ade-ac9a-ce9416f02456/bullet1.png)
+    no-repeat left 8px;
+  margin-top: 15px;
+}
+
+.pt-bottle {
+  float: right;
+  width: 130px;
+  margin-top: 30px;
+  margin-right: 40px;
+}
+
+/*CTA CSS*/
+.cta-box {
+  float: left;
+  width: 100%;
+  margin-top: 40px;
+  height: 245px;
+  background: url(https://cdn.aws-files.com/56edc5b0-8cce-4ade-ac9a-ce9416f02456/cta-bg1.jpg)
+    no-repeat left top;
+  padding: 30px 20px 0 290px;
+}
+
+.cta-text {
+  /* float: left; */
+  width: 100%;
+  color: #000;
+  text-align: left;
+  font-size: 26px;
+  line-height: 34px;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+a.cta-btn {
+  /* float: left; */
+  margin: 1rem auto;
+  padding: 20px;
+  height: 55px;
+  width: 100%;
+  outline: 0;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 54px;
+  color: #fff;
+  text-align: center;
+  border: 0;
+  cursor: pointer;
+  background: #fd001b;
+  max-width: 280px;
+}
+
+/*OFFER BOX CSS*/
+.offer-box {
+  float: left;
+  width: 100%;
+  margin-top: 40px;
+  background: #f4e3cf;
+  padding: 25px 30px 20px;
+}
+
+.offer-bottle {
+  float: left;
+  width: 180px;
+}
+
+.offer-right {
+  float: right;
+  width: calc(100% - 200px);
+  margin-top: 30px;
+}
+
+.offer-heading {
+  color: #000;
+  font-size: 28px;
+  line-height: 34px;
+  font-weight: bold;
+}
+
+.offer-heading span {
+  color: #f00;
+}
+
+.offer-txt2 {
+  font-size: 20px;
+  font-weight: 500;
+  margin-top: 10px;
+}
+
+.offer-rush {
+  color: #f00;
+  font-size: 17px;
+  margin-top: 20px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+}
+
+a.offerBtn {
+  display: block;
+  margin: 20px auto 0;
+  height: 60px;
+  width: 360px;
+  outline: 0;
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 60px;
+  color: #fff;
+  text-align: center;
+  border: 0;
+  cursor: pointer;
+  background: #fd001b;
+}
+
+ul.offer-list {
+  float: left;
+  width: 100%;
+  border-top: 1px solid #fcbf77;
+  margin-top: 15px;
+  padding-top: 20px;
+}
+
+ul.offer-list li {
+  display: inline-block;
+  vertical-align: top;
+  padding: 0 15px;
+}
+
+ul.offer-list li img {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 5px;
+}
+
+ul.offer-list li p {
+  display: inline-block;
+  vertical-align: middle;
+  text-align: left;
+  color: #000;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+/*RIGHT CSS*/
+.sec1-rit {
+  float: right;
+  width: 31%;
+}
+
+.s1-rit-box {
+  float: left;
+  width: 100%;
+  background: #f4e3cf;
+  padding: 25px 20px;
+  margin-top: 40px;
+}
+
+.right-heading {
+  float: left;
+  width: 100%;
+  color: #000;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.s1-rit-prd {
+  display: inline-block;
+  vertical-align: middle;
+  max-width: 100%;
+  margin-top: 20px;
+}
+
+.s1-rit-box a.offerBtn {
+  max-width: 100%;
+  font-size: 24px;
+  margin-top: 10px;
+}
+
+/*FOOTER CSS*/
+.footer {
+  float: left;
+  width: 100%;
+  background: #1a1a1a;
+  padding: 40px 0;
+}
+
+.logo-box-ftr {
+  float: left;
+  width: 20%;
+  text-align: center;
+}
+
+.logo-box-ftr .advtr-text {
+  color: #fff;
+  text-align: center;
+}
+
+.footer-logo {
+  float: left;
+}
+
+.ftr-inner {
+  display: inline-block;
+  vertical-align: top;
+  width: 100%;
+  text-align: left;
+}
+
+.ftr-text {
+  float: left;
+  width: 100%;
+  font-size: 13px;
+  line-height: 20px;
+  color: #fff;
+  margin: 8px 0;
+  letter-spacing: 0;
+  letter-spacing: 0.5px;
+}
+
+ul.ftr-list {
+  float: left;
+  width: 100%;
+  padding-left: 15px;
+  margin: 15px 0 20px;
+}
+
+ul.ftr-list li {
+  float: left;
+  width: 100%;
+  font-size: 13px;
+  line-height: 18px;
+  color: #fff;
+  text-align: left;
+  list-style: decimal;
+  padding-left: 5px;
+  letter-spacing: 0;
+  margin-top: 8px;
+}
+
+ul.ftr-list li a {
+  text-decoration: underline;
+  word-break: break-all;
+  color: #fff;
+}
+
+.ftr-text a {
+  font-weight: 600;
+  padding: 0 25px 0 0;
+  text-decoration: underline;
+  color: #fff;
+}
+
+.ftr-text span {
+  font-weight: bold;
+}
+
+.show-Tab,
+.hide-Desk {
+  display: none;
+}
+
+.show-Desk {
+  display: block;
+}
+
+.show-Mob {
+  display: none;
+}
+
+@media only screen and (max-width: 1200px) {
+  .container {
+    max-width: 960px;
+  }
+
+  .hide-tab {
+    display: none;
+  }
+
+  .cta-text {
+    font-size: 22px;
+    line-height: 30px;
+  }
+
+  .offer-bottle {
+    width: 150px;
+  }
+
+  .offer-right {
+    width: calc(100% - 170px);
+    margin-top: 20px;
+  }
+
+  .offer-heading {
+    font-size: 24px;
+    line-height: 32px;
+  }
+
+  .offer-txt2 {
+    font-size: 18px;
+  }
+
+  .offer-rush {
+    font-size: 16px;
+    margin-top: 10px;
+  }
+
+  ul.offer-list li {
+    padding: 0 5px;
+  }
+
+  ul.offer-list li p {
+    font-size: 14px;
+  }
+
+  .right-heading {
+    font-size: 20px;
+  }
+
+  .s1-rit-prd {
+    width: 180px;
+  }
+
+  .s1-rit-box a.offerBtn {
+    font-size: 20px;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  .container {
+    max-width: 720px;
+  }
+
+  .sec1-lft {
+    width: 100%;
+    padding: 30px 0 10px;
+  }
+
+  .heading {
+    font-size: 40px;
+    line-height: 50px;
+  }
+
+  .cta-text {
+    font-size: 24px;
+    line-height: 32px;
+  }
+
+  .sec1-rit {
+    width: 100%;
+  }
+
+  .s1-rit-box {
+    margin: 30px 0;
+    padding: 25px 40px;
+  }
+
+  .right-heading {
+    font-size: 24px;
+    line-height: 34px;
+    padding: 0 100px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .container {
+    max-width: 600px;
+  }
+
+  .show-Mob {
+    display: block;
+  }
+
+  header {
+    padding: 10px 0;
+  }
+
+  .logo {
+    width: 120px;
+  }
+
+  .sec1-lft {
+    padding-top: 20px;
+  }
+
+  .heading {
+    font-size: 26px;
+    line-height: 38px;
+  }
+
+  .h-para {
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .author {
+    padding: 4px 0 5px 65px;
+    font-size: 16px;
+  }
+
+  .author img {
+    width: 50px;
+  }
+
+  .s1-hr {
+    margin: 20px 0 15px;
+  }
+
+  .caps-txt {
+    font-size: 12px;
+    padding: 10px 5px;
+  }
+
+  .common-para {
+    font-size: 18px;
+    line-height: 28px;
+    margin-top: 20px;
+  }
+
+  .subheading {
+    font-size: 18px;
+    line-height: 26px;
+    margin-top: 20px;
+  }
+
+  .common-heading {
+    font-size: 22px;
+    line-height: 32px;
+    padding: 10px 0;
+    margin-top: 30px;
+  }
+
+  ul.benefits-list {
+    width: 100%;
+    padding-left: 0;
+  }
+
+  ul.benefits-list li {
+    font-size: 17px;
+    line-height: 23px;
+    margin-top: 12px;
+  }
+
+  .pt-bottle {
+    float: none;
+    margin: 0 auto;
+    margin-top: 25px;
+    width: 180px;
+  }
+
+  .mar-30 {
+    margin-top: 20px;
+  }
+
+  .testi-box {
+    margin-top: 0;
+  }
+
+  .testi-inner {
+    width: 100%;
+    margin-top: 30px;
+  }
+
+  .offer-box {
+    margin-top: 30px;
+    padding: 25px 15px 20px;
+  }
+
+  .offer-bottle {
+    float: none;
+    margin: 0 auto;
+  }
+
+  .offer-right {
+    width: 100%;
+    margin-top: 10px;
+  }
+
+  .offer-heading {
+    font-size: 20px;
+    line-height: 27px;
+    letter-spacing: -0.3px;
+  }
+
+  .offer-txt2 {
+    font-size: 14px;
+  }
+
+  .offer-rush {
+    font-size: 13px;
+  }
+
+  a.offerBtn {
+    max-width: 100%;
+    font-size: 22px;
+  }
+
+  ul.offer-list li {
+    padding: 0;
+  }
+
+  ul.offer-list li:nth-child(2) {
+    margin: 0 10px;
+  }
+
+  ul.offer-list li img {
+    margin-right: 2px;
+    width: 22px;
+  }
+
+  ul.offer-list li p {
+    font-size: 12px;
+    line-height: 14px;
+  }
+
+  .cta-box {
+    background: #f4e3cf;
+    padding: 20px 25px;
+    height: auto;
+    margin-top: 30px;
+  }
+
+  .cta-prod {
+    width: 300px;
+    margin: 0 auto;
+  }
+
+  .cta-text {
+    text-align: center;
+    font-size: 22px;
+    line-height: 32px;
+    margin-bottom: 1rem;
+  }
+
+  .test-para {
+    font-size: 18px;
+    line-height: 28px;
+  }
+
+  .s1-rit-box {
+    padding: 20px 20px 25px;
+  }
+
+  .right-heading {
+    padding: 0;
+  }
+
+  a.common-btn {
+    font-size: 26px;
+    width: 380px;
+    max-width: 100%;
+  }
+
+  .footer {
+    padding: 25px 0;
+  }
+
+  .logo-box-ftr {
+    width: 50%;
+  }
+
+  .logo-box-ftr .advtr-text {
+    float: none;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: -12px;
+    text-align: center;
+  }
+
+  ul.ftr-list {
+    margin: 6px 0 15px;
+  }
+
+  .ftr-text a {
+    padding-right: 15px;
+  }
+}
